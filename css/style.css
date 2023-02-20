@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Signika, sans-serif;
+}
+body{
+    background-color: #5a5f49;
+}
+header{
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+    max-height: 250px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #c9e661 48%, #ff0303 100%);
+
+}
+.logo1{
+    float: left;
+    margin-left:20px ;
+}
+.logo1 img{
+    width: 90%;
+}
+.logo2{
+    float: right;
+    margin-right: 20px;
+}
+.header{
+    text-align: center;
+}
+.header h2{
+    font-size: 50px;
+}
+.header h3{
+    font-size: 30px
+}
+.section1{
+    margin: 0 auto;
+    width: 90%;
+    height: 600px;
+    text-align: center;
+    
+}
+.section1 .cover{
+    width: 100%;
+    height: 100%;
+    background-image: url(/imagens/fundo-section1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    margin-top: 15px;
+    width: 400px;
+    height: 85%;
+    float: right;
+    margin-right: 50px;
+}
+.form h2{
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgba(100, 148, 237, 0.486);
+}
+form{
+    background-color: rgba(127, 255, 212, 0.507);
+}
+form input[type=text]{
+    width: 80%;
+    height: 65px;
+    line-height: 65px;
+    border-radius:10px;
+    outline: none;
+    margin-top: 10px;
+}
+form p{
+    margin-top: 10px;
+    font-weight: 700;
+}
+textarea{
+    width: 80%;
+    height: 65px;
+    line-height: 65px;
+    border-radius:10px;
+    outline: none;
+    margin-top: 10px;
+}
+form input[type=submit]{
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e9004c;
+    background-image: linear-gradient(160deg, #e9004c 0%, #000000 74%);
+    color: white;
+    border-radius:10px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form input[type=submit]:hover{
+    animation: enviar 1.5s linear;
+  }
+@keyframes enviar{
+    0%{
+        padding-left: 80px;
+    }
+    25%{
+        padding: 0 ;
+    }
+    50%{
+        padding-right: 80px;
+    }
+    100%{
+        padding: 0 ;
+    }
+}
+form input[type=radio]{
+    cursor: pointer;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    .logo1{
+        float: left;
+        margin-left:20px ;
+    }
+    .logo1 img{
+        width: 50%;
+        max-width: 150px;
+    }
+    .logo2{
+        float: right;
+        margin-right: 20px;
+    }
+    .logo2 img{
+        width: 55%;
+        max-width: 150px;
+    }
+    .header{
+        text-align: center;
+    }
+    .header h2{
+        font-size: 3vh;
+    }
+    .header h3{
+        font-size: 2vh;
+    }
+    .section1{
+        margin: 0 auto;
+        width: 90%;
+        height: 600px;
+        text-align: center;
+    }
+    .form{
+        width: 100%;
+        max-width: 400px;
+        height: 85%;
+        float: none;
+        margin: 0 auto;
+    }
+}
