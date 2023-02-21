@@ -5,7 +5,7 @@
     font-family: Signika, sans-serif;
 }
 body{
-    background-color: #5a5f49;
+    background-color: #c9d3a7;
 }
 header{
     padding-top: 10px;
@@ -102,7 +102,75 @@ form input[type=submit]{
 }
 form input[type=submit]:hover{
     animation: enviar 1.5s linear;
-  }
+}
+.chamada{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    font-size: 70px;
+    color: black;
+    text-shadow: 1px 2px 3px #ff0303;
+    justify-content: center;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #0097ff 100%);
+
+}
+.mosaico{
+    
+    padding: 0 2%;
+    width: 100%;
+    display: flex;
+}
+.mosaico p{
+    font-size: 30px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    background-color: #c9e661;
+}
+.mosaico .foto1{
+    width: 65%;
+    padding-top: 40%;
+    background-image: url(/imagens/shopping.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.mosaico .foto2{
+    width: 65%;
+    padding-top: 40%;
+    background-image: url(/imagens/sg-11134201-22120-t0z91va9fvkv8d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.mosaico .foto3{
+    width: 65%;
+    padding-top: 40%;
+    background-image: url(/imagens/shopping\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mosaico .foto4{
+    width: 65%;
+    padding-top: 40%;
+    background-image: url(/imagens/shopping\ \(2\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    background-color: darkkhaki;
+}
+footer p{
+    padding-top: 5vh;
+}
 @keyframes enviar{
     0%{
         padding-left: 80px;
@@ -159,5 +227,64 @@ form input[type=radio]{
         height: 85%;
         float: none;
         margin: 0 auto;
+    }
+    .chamada{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        font-size: 3vh;
+        text-align: center;
+        color: black;
+        text-shadow: 1px 2px 3px #ff0303;
+        justify-content: center;
+        background-color: #00DBDE;
+        background-image: linear-gradient(90deg, #00DBDE 0%, #0097ff 100%);
+    }
+    .mosaico{
+    
+        padding: 0 2%;
+        width: 100%;
+        display: inline-block;
+    }
+    .mosaico p{
+        font-size: 2vh;
+        padding: 20px 30px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: #c9e661;
+    }
+    .mosaico .foto1{
+        width: 100%;
+        padding-top: 70%;
+        background-image: url(/imagens/shopping.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+    .mosaico .foto2{
+        width: 100%;
+        padding-top: 70%;
+        background-image: url(/imagens/sg-11134201-22120-t0z91va9fvkv8d.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+    .mosaico .foto3{
+        width: 100%;
+        padding-top: 70%;
+        background-image: url(/imagens/shopping\ \(1\).webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .mosaico .foto4{
+        width: 100%;
+        padding-top: 70%;
+        background-image: url(/imagens/shopping\ \(2\).webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
     }
 }
