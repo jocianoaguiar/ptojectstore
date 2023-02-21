@@ -15,20 +15,10 @@ header{
     min-height: 150px;
     max-height: 250px;
     background-color: #00DBDE;
-    background-image: linear-gradient(90deg, #00DBDE 0%, #c9e661 48%, #ff0303 100%);
+    background-image: linear-gradient(90deg, #75b0b1 0%, #6d79eb 48%, #653bfa 100%);
 
 }
-.logo1{
-    float: left;
-    margin-left:20px ;
-}
-.logo1 img{
-    width: 90%;
-}
-.logo2{
-    float: right;
-    margin-right: 20px;
-}
+
 .header{
     text-align: center;
 }
@@ -123,15 +113,18 @@ form input[type=submit]:hover{
     display: flex;
 }
 .mosaico p{
+    display: flex;
+    order: 1;
     font-size: 30px;
     padding: 0 30px;
-    display: flex;
     align-items: center;
+    justify-content: center;
     width: 35%;
     background-color: #c9e661;
 }
 .mosaico .foto1{
     width: 65%;
+    order: 2;
     padding-top: 40%;
     background-image: url(../imagens/shopping.webp);
     background-repeat: no-repeat;
@@ -139,6 +132,7 @@ form input[type=submit]:hover{
     background-position: top;
 }
 .mosaico .foto2{
+    order: 2;
     width: 65%;
     padding-top: 40%;
     background-image: url(../imagens/sg-11134201-22120-t0z91va9fvkv8d.jpg);
@@ -147,6 +141,7 @@ form input[type=submit]:hover{
     background-position: top;
 }
 .mosaico .foto3{
+    order: 2;
     width: 65%;
     padding-top: 40%;
     background-image: url(../imagens/shopping\ \(1\).webp);
@@ -155,6 +150,7 @@ form input[type=submit]:hover{
     background-position: center;
 }
 .mosaico .foto4{
+    order: 2;
     width: 65%;
     padding-top: 40%;
     background-image: url(../imagens/shopping\ \(2\).webp);
@@ -281,7 +277,7 @@ form input[type=radio]{
     }
     .mosaico .foto4{
         width: 100%;
-        padding-top: 70%;
+        padding-top: 70%; 
         background-image: url(../imagens/shopping\ \(2\).webp);
         background-repeat: no-repeat;
         background-size: cover;
