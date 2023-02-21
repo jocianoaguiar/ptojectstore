@@ -48,7 +48,7 @@ header{
 .section1 .cover{
     width: 100%;
     height: 100%;
-    background-image: url(/imagens/fundo-section1.jpg);
+    background-image: url(../imagens/fundo-section1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@ form input[type=submit]:hover{
 .mosaico .foto1{
     width: 65%;
     padding-top: 40%;
-    background-image: url(/imagens/shopping.webp);
+    background-image: url(../imagens/shopping.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -141,7 +141,7 @@ form input[type=submit]:hover{
 .mosaico .foto2{
     width: 65%;
     padding-top: 40%;
-    background-image: url(/imagens/sg-11134201-22120-t0z91va9fvkv8d.jpg);
+    background-image: url(../imagens/sg-11134201-22120-t0z91va9fvkv8d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -149,7 +149,7 @@ form input[type=submit]:hover{
 .mosaico .foto3{
     width: 65%;
     padding-top: 40%;
-    background-image: url(/imagens/shopping\ \(1\).webp);
+    background-image: url(../imagens/shopping\ \(1\).webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -157,7 +157,7 @@ form input[type=submit]:hover{
 .mosaico .foto4{
     width: 65%;
     padding-top: 40%;
-    background-image: url(/imagens/shopping\ \(2\).webp);
+    background-image: url(../imagens/shopping\ \(2\).webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -258,7 +258,7 @@ form input[type=radio]{
     .mosaico .foto1{
         width: 100%;
         padding-top: 70%;
-        background-image: url(/imagens/shopping.webp);
+        background-image: url(../imagens/shopping.webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
@@ -266,7 +266,7 @@ form input[type=radio]{
     .mosaico .foto2{
         width: 100%;
         padding-top: 70%;
-        background-image: url(/imagens/sg-11134201-22120-t0z91va9fvkv8d.jpg);
+        background-image: url(../imagens/sg-11134201-22120-t0z91va9fvkv8d.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
@@ -274,7 +274,7 @@ form input[type=radio]{
     .mosaico .foto3{
         width: 100%;
         padding-top: 70%;
-        background-image: url(/imagens/shopping\ \(1\).webp);
+        background-image: url(../imagens/shopping\ \(1\).webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -282,7 +282,7 @@ form input[type=radio]{
     .mosaico .foto4{
         width: 100%;
         padding-top: 70%;
-        background-image: url(/imagens/shopping\ \(2\).webp);
+        background-image: url(../imagens/shopping\ \(2\).webp);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top;
